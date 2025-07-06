@@ -1,0 +1,80 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - text: GREENKART
+  - searchbox "Search for Vegetables and Fruits": ro
+  - button
+  - link "Limited offer - FREE Core Java & QA Resume course":
+    - /url: https://rahulshettyacademy.com
+  - link "Top Deals":
+    - /url: "#/offers"
+  - link "Flight Booking":
+    - /url: https://rahulshettyacademy.com/dropdownsPractise/
+  - table:
+    - rowgroup:
+      - 'row "Items : 1"':
+        - cell "Items"
+        - cell ":"
+        - cell "1":
+          - strong: "1"
+      - 'row "Price : 75"':
+        - cell "Price"
+        - cell ":"
+        - cell "75":
+          - strong: "75"
+  - link "Cart":
+    - /url: "#"
+    - img "Cart"
+  - list:
+    - listitem:
+      - img
+      - paragraph: Mushroom - 1 Kg
+      - paragraph: ₹ 75
+      - paragraph: 1 No.
+      - paragraph: ₹ 75
+      - link "×":
+        - /url: "#"
+  - button "PROCEED TO CHECKOUT"
+- img "Brocolli - 1 Kg"
+- heading "Brocolli - 1 Kg" [level=4]
+- paragraph: ₹ 120
+- link "–":
+  - /url: "#"
+- spinbutton: "1"
+- link "+":
+  - /url: "#"
+- button "ADD TO CART"
+- img "Beetroot - 1 Kg"
+- heading "Beetroot - 1 Kg" [level=4]
+- paragraph: ₹ 32
+- link "–":
+  - /url: "#"
+- spinbutton: "1"
+- link "+":
+  - /url: "#"
+- button "ADD TO CART"
+- img "Carrot - 1 Kg"
+- heading "Carrot - 1 Kg" [level=4]
+- paragraph: ₹ 56
+- link "–":
+  - /url: "#"
+- spinbutton: "5"
+- link "+":
+  - /url: "#"
+- button "ADD TO CART"
+- img "Mushroom - 1 Kg"
+- heading "Mushroom - 1 Kg" [level=4]
+- paragraph: ₹ 75
+- link "–":
+  - /url: "#"
+- spinbutton: "3"
+- link "+":
+  - /url: "#"
+- button "ADD TO CART"
+- contentinfo:
+  - paragraph:
+    - text: © 2019
+    - strong: GreenKart
+    - text: "- buy veg and fruits online"
+```

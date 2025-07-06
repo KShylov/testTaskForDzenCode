@@ -1,0 +1,15 @@
+{
+  "name": "testtaskfordzencode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",   
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.53.2"
+  }
+}

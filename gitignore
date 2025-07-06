@@ -1,0 +1,20 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Playwright output
+test-results/
+playwright-report/
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+*.iml
